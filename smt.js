@@ -21,6 +21,7 @@ function showNames(){
         var win = window.open("");
         var s = "";
         for (var i in names){
+            
             s += names[i] + "<br/>";
             win.document.write(s);
         }
